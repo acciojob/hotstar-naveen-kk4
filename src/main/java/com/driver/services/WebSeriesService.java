@@ -43,7 +43,6 @@ public class WebSeriesService {
       totalRatings+=webSeries1.getRating();
       webSeriesList.add(webSeries1);
       productionHouse.setRatings(1.0*totalRatings/webSeriesList.size());
-      productionHouse.setWebSeriesList(webSeriesList);
       productionHouseRepository.save(productionHouse);
       return 123;
     }
