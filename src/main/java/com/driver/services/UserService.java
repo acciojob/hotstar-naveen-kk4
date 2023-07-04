@@ -25,7 +25,7 @@ public class UserService {
     public Integer addUser(User user){
 
         userRepository.save(user);
-        return user.getId();
+        return 0;
     }
 
     public Integer getAvailableCountOfWebSeriesViewable(Integer userId){

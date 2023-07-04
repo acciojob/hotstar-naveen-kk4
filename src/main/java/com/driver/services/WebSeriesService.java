@@ -45,7 +45,7 @@ public class WebSeriesService {
       productionHouse.setRatings(1.0*totalRatings/webSeriesList.size());
       productionHouse.setWebSeriesList(webSeriesList);
       productionHouseRepository.save(productionHouse);
-      return null;
+      return 123;
     }
 
 }
